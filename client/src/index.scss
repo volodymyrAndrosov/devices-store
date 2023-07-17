@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: gray;
+}
+
+h2,h1{
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .row {
+        --bs-gutter-x: none; 
+        --bs-gutter-y: none;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
